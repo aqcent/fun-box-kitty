@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/aqcent.github.io/fun-box-kitty/static/css/main.d01266e5.chunk.css",
-    "main.js": "/aqcent.github.io/fun-box-kitty/static/js/main.8a990ceb.chunk.js",
-    "main.js.map": "/aqcent.github.io/fun-box-kitty/static/js/main.8a990ceb.chunk.js.map",
-    "runtime-main.js": "/aqcent.github.io/fun-box-kitty/static/js/runtime-main.ac13bd44.js",
-    "runtime-main.js.map": "/aqcent.github.io/fun-box-kitty/static/js/runtime-main.ac13bd44.js.map",
-    "static/js/2.78369f75.chunk.js": "/aqcent.github.io/fun-box-kitty/static/js/2.78369f75.chunk.js",
-    "static/js/2.78369f75.chunk.js.map": "/aqcent.github.io/fun-box-kitty/static/js/2.78369f75.chunk.js.map",
-    "index.html": "/aqcent.github.io/fun-box-kitty/index.html",
-    "precache-manifest.78504c5e53da28d40d8a6279c3ecb14c.js": "/aqcent.github.io/fun-box-kitty/precache-manifest.78504c5e53da28d40d8a6279c3ecb14c.js",
-    "service-worker.js": "/aqcent.github.io/fun-box-kitty/service-worker.js",
-    "static/css/main.d01266e5.chunk.css.map": "/aqcent.github.io/fun-box-kitty/static/css/main.d01266e5.chunk.css.map",
-    "static/js/2.78369f75.chunk.js.LICENSE.txt": "/aqcent.github.io/fun-box-kitty/static/js/2.78369f75.chunk.js.LICENSE.txt",
-    "static/media/cat.png": "/aqcent.github.io/fun-box-kitty/static/media/cat.d334fe47.png"
+    "main.css": "/fun-box-kitty/static/css/main.d01266e5.chunk.css",
+    "main.js": "/fun-box-kitty/static/js/main.8d7e7442.chunk.js",
+    "main.js.map": "/fun-box-kitty/static/js/main.8d7e7442.chunk.js.map",
+    "runtime-main.js": "/fun-box-kitty/static/js/runtime-main.df259181.js",
+    "runtime-main.js.map": "/fun-box-kitty/static/js/runtime-main.df259181.js.map",
+    "static/js/2.78369f75.chunk.js": "/fun-box-kitty/static/js/2.78369f75.chunk.js",
+    "static/js/2.78369f75.chunk.js.map": "/fun-box-kitty/static/js/2.78369f75.chunk.js.map",
+    "index.html": "/fun-box-kitty/index.html",
+    "precache-manifest.97c82f9f8b8fb28b21053abfb3e9e771.js": "/fun-box-kitty/precache-manifest.97c82f9f8b8fb28b21053abfb3e9e771.js",
+    "service-worker.js": "/fun-box-kitty/service-worker.js",
+    "static/css/main.d01266e5.chunk.css.map": "/fun-box-kitty/static/css/main.d01266e5.chunk.css.map",
+    "static/js/2.78369f75.chunk.js.LICENSE.txt": "/fun-box-kitty/static/js/2.78369f75.chunk.js.LICENSE.txt",
+    "static/media/cat.png": "/fun-box-kitty/static/media/cat.d334fe47.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac13bd44.js",
+    "static/js/runtime-main.df259181.js",
     "static/js/2.78369f75.chunk.js",
     "static/css/main.d01266e5.chunk.css",
-    "static/js/main.8a990ceb.chunk.js"
+    "static/js/main.8d7e7442.chunk.js"
   ]
 }
