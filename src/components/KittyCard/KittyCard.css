@@ -1,0 +1,204 @@
+:root {
+    --border-width: 4px;
+    --accent-color: #b3b3b3;
+    --card-bg-color: #f2f2f2;
+}
+
+.KittyCard {
+    font-family: "Trebuchet MS";
+    margin: 40px;
+    min-width: 320px;
+}
+
+@media (max-width: 818px) {
+    .KittyCard {
+        margin: 25px;
+    }
+}
+
+.KittyCard .wrapper {
+    position: relative;
+    height: 482px;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: all 0.2s;
+}
+.svg-border {
+    fill: var(--accent-color);
+}
+.svg-sub-content {
+    fill: var(--card-bg-color);
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 4px solid transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    /* clip-path: polygon(
+        calc(50px + var(--border-width) * 1.6) 0,
+        100% 0,
+        100% 100%,
+        0 100%,
+        0 calc(50px + var(--border-width) * 1.6)
+    ); */
+    height: 100%;
+    transition: all 0.2s;
+}
+
+/*--- CONTENT ---*/
+.card-img {
+    background: transparent no-repeat 50% / cover;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 280px;
+    background-size: 116%;
+    background-position: -20px 0px;
+}
+
+.KittyCard .content-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2px 0 0 50px;
+}
+
+.KittyCard header {
+    margin: 20px 0 20px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+p.card-title,
+.KittyCard article {
+    font-size: 16px;
+    color: #666666;
+}
+
+.KittyCard article {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+p.company-name,
+p.flavoured {
+    font-size: 48px;
+    color: #000000;
+    font-weight: bold;
+}
+
+p.company-name {
+    margin: 5px 0 0 -3px;
+}
+
+p.flavoured {
+    font-size: 24px;
+}
+
+/*--- WEIGHT TAG ---*/
+.weight-tag {
+    width: 81px;
+    height: 81px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    transition: 0.2s;
+}
+
+.weight-tag-measure,
+.weight-tag-number {
+    text-align: center;
+    color: #ffffff;
+}
+
+.weight-tag-number {
+    font-size: 42px;
+    line-height: 38px;
+}
+
+.weight-tag-measure {
+    font-size: 21px;
+    line-height: 21px;
+}
+
+
+/*--- CARD FOOTER ---*/
+.card-footer {
+    margin: 15px 0 15px 0;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+    text-align: center;
+    filter: drop-shadow(0px 1px 0.5px #000000);
+}
+
+.KittyCard .buy-link {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+.KittyCard .buy-link a {
+    border-bottom: 1px dashed;
+}
+.KittyCard .buy-link:hover {
+    color: #2ea8e6;
+}
+
+/*--- CHANGE COLOR BY STATUS ---*/
+/* Полифил (ie 11) не поборол переприсвоение пришлось расписывать
+    .Default {
+        --accent-color: #1698d9;
+    } 
+*/
+.Default .weight-tag,
+.Default .svg-border  {
+    fill: #1698d9;
+    background-color: #1698d9;
+}
+
+.DefaultHover .weight-tag,
+.DefaultHover .svg-border  {
+    fill: #2ea8e6;
+    background-color: #2ea8e6;
+}
+
+.Selected .weight-tag,
+.Selected .svg-border  {
+    fill: #d91667;
+    background-color: #d91667;
+}
+
+.SelectedHover .weight-tag,
+.SelectedHover .svg-border {
+    fill: #e62e7a;
+    background-color: #e62e7a;    
+}
+
+.SelectedHover .card-title {
+    color: #e62e7a;
+}
+
+.Disabled .content-wrapper,
+.Disabled .card-img {
+    opacity: 0.25;
+}
+
+.Disabled .card-footer {
+    color: #ffff66;
+}
+
+
